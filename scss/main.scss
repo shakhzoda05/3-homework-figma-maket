@@ -8,6 +8,117 @@
   margin: 0 auto;
   padding: 0 20px;
 }
+a {
+  text-decoration: none;
+  color: rgba(54, 83, 107, 0.734);
+}
 body {
-  font-family: "Montserrat";
+  background-image: url(../images/hero\ bg\ img.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 750px 650px;
+}
+.hero-img {
+  margin-right: 7px;
+}
+.header-site {
+  padding-top: 45px;
+  padding-right: 145px;
+  padding-left: 145px;
+  display: flex;
+  gap: 500px;
+  padding-bottom: 100px;
+}
+.nav-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 17.63px;
+  text-align: left;
+  color: rgba(54, 83, 107, 1);
+}
+.nav-left {
+  a:hover {
+    color: rgba(54, 83, 107, 1);
+  }
+}
+.nav-btn {
+  button {
+    background-color: rgba(186, 66, 112, 1);
+    color: rgba(251, 252, 254, 1);
+    border-radius: 25px;
+    border: none;
+    padding: 13px 25px;
+  }
+  &:hover {
+    button {
+      background-color: rgba(186, 66, 112, 0.744);
+    }
+  }
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 17.63px;
+  text-align: left;
+}
+.hero-elements {
+  display: flex;
+  align-items: center;
+  gap: 206px;
+  padding-left: 120px;
+  padding-right: 245px;
+}
+.hero-left {
+  h1 {
+    font-family: "DM Serif Display";
+    width: 546px;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 72px;
+    text-align: left;
+  }
+  input {
+    border-radius: 25px;
+    background-color: white;
+    padding: 13px 25px;
+    border: none;
+  }
+}
+
+button {
+  background-color: rgba(186, 66, 112, 1);
+  color: rgba(251, 252, 254, 1);
+  border-radius: 25px;
+  border: none;
+  padding: 13px 25px;
+}
+&:hover {
+  button {
+    background-color: rgba(186, 66, 112, 0.744);
+  }
+}
+
+.hero-right {
+  img {
+    margin-top: 25px;
+    width: 263px;
+    height: 500px;
+    border-radius: 32px;
+  }
+}
+.info {
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17.63px;
+  text-align: left;
+  color: rgba(108, 130, 148, 0.823);
 }
