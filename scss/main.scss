@@ -17,6 +17,8 @@ body {
   background-repeat: no-repeat;
   background-position: top right;
   background-size: 750px 650px;
+  background-color: #fbfcfe;
+  background-color: #edf3f8;
 }
 .hero-img {
   margin-right: 7px;
@@ -84,6 +86,7 @@ body {
     font-weight: 400;
     line-height: 72px;
     text-align: left;
+    padding-bottom: 30px;
   }
   input {
     border-radius: 25px;
@@ -99,8 +102,10 @@ button {
   border-radius: 25px;
   border: none;
   padding: 13px 25px;
+  margin-left: -35px;
+  margin-bottom: 16px;
 }
-&:hover {
+button:hover {
   button {
     background-color: rgba(186, 66, 112, 0.744);
   }
@@ -121,4 +126,288 @@ button {
   line-height: 17.63px;
   text-align: left;
   color: rgba(108, 130, 148, 0.823);
+}
+// <<<<<<<<<<BLACK-SITE>>>>>>>>
+.black-site {
+  margin-top: 75px;
+  background-color: rgba(27, 38, 47, 1);
+  background-image: url(../images/black-site-bg.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding-bottom: 90px;
+}
+.black-site-all {
+  display: flex;
+  align-items: center;
+  gap: 131px;
+}
+.texts-and-button {
+  padding-left: 145px;
+}
+.brand-logotips {
+  padding-right: 145px;
+}
+.texts-and-button {
+  h1 {
+    font-family: "DM Serif Display";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    text-align: left;
+    color: rgba(251, 252, 254, 1);
+    padding-top: 100px;
+    padding-bottom: 25px;
+    width: 445px;
+  }
+  p {
+    font-family: "Public Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: rgba(251, 252, 254, 0.797);
+    padding-bottom: 32px;
+  }
+  a {
+    font-family: "Public Sans";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17.63px;
+    text-align: center;
+    color: rgba(251, 252, 254, 1);
+    border: 1px solid white;
+    border-radius: 32px;
+    padding: 16px 32px;
+  }
+}
+.texts-and-button:hover {
+  a {
+    color: black;
+    background-color: white;
+    transition: 1s;
+  }
+}
+// <<<<<<<<<<<<IMPLEMENT-SECTION>>>>>>>>>
+.implement-texts {
+  h2 {
+    font-family: "DM Serif Display";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    text-align: left;
+    color: rgba(54, 83, 107, 1);
+    padding-bottom: 24px;
+  }
+  p {
+    font-family: "Public Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(108, 130, 148, 1);
+    text-align: left;
+    width: 445px;
+    height: 84px;
+  }
+}
+.implement-img {
+  padding-top: 150px;
+  padding-left: 90px;
+}
+.implement-all-contents {
+  display: flex;
+  align-items: center;
+  gap: 125px;
+}
+.implement-texts {
+  padding-top: 80px;
+}
+
+// <<<<<<<<<<SIMPLE-SECTION>>>>>>>>>>
+.simple-section {
+  background-image: url(../images/simple-section-bg-img.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+.simple-texts {
+  padding-left: 145px;
+  h2 {
+    font-family: "DM Serif Display";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    text-align: left;
+    color: rgba(54, 83, 107, 1);
+    width: 445px;
+    padding-bottom: 24px;
+  }
+  p {
+    font-family: "Public Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: rgba(108, 130, 148, 1);
+    width: 445px;
+  }
+}
+.simple-contents {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  justify-content: space-between;
+  padding-bottom: 140px;
+  padding-top: 130px;
+}
+// <<<<<<<<<<PRICE-SECTION>>>>>>>>>>
+.finance-info {
+  padding-left: 70px;
+  img {
+    padding-bottom: 32px;
+    padding-left: 115px;
+  }
+  h4 {
+    font-family: "Public Sans";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    color: rgba(54, 83, 107, 1);
+    width: 350px;
+    padding-bottom: 16px;
+  }
+  p {
+    font-family: "Public Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    width: 350px;
+    color: rgba(108, 130, 148, 1);
+  }
+}
+.price-contents {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding-bottom: 96px;
+}
+.banking-info {
+  img {
+    padding-bottom: 32px;
+    padding-left: 115px;
+  }
+  h4 {
+    font-family: "Public Sans";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    color: rgba(54, 83, 107, 1);
+    width: 350px;
+    padding-bottom: 16px;
+  }
+  p {
+    font-family: "Public Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    width: 350px;
+    color: rgba(108, 130, 148, 1);
+  }
+}
+.payment-info {
+  padding-right: 70px;
+  img {
+    padding-bottom: 32px;
+    padding-left: 115px;
+  }
+  h4 {
+    font-family: "Public Sans";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    color: rgba(54, 83, 107, 1);
+    width: 350px;
+    padding-bottom: 16px;
+  }
+  p {
+    font-family: "Public Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    width: 350px;
+    color: rgba(108, 130, 148, 1);
+  }
+}
+// <<<<<<<<<<START-SECTION>>>>>>>>>>
+.start-contents {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 70px;
+  padding-left: 70px;
+  gap: 200px;
+  padding-bottom: 96px;
+}
+.start-big-text {
+  h2 {
+    font-family: "DM Serif Display";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    text-align: left;
+    color: rgba(54, 83, 107, 1);
+    width: 445px;
+  }
+}
+.start-input-btn {
+  input {
+    border-radius: 25px;
+    background-color: white;
+    padding: 13px 25px;
+    border: none;
+  }
+}
+// <<<<<<<<<<FOOTER-SITE>>>>>>>>>>
+.footer-site {
+  background-color: rgba(27, 38, 47, 1);
+}
+.footer-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 31px;
+  padding-bottom: 31px;
+  padding-right: 70px;
+  padding-left: 70px;
+}
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 17.63px;
+  text-align: left;
+  color: rgba(251, 252, 254, 1);
+  a {
+    color: rgba(251, 252, 254, 0.622);
+  }
+  a:hover {
+    color: white;
+  }
+}
+.footer-right {
+  display: flex;
+  gap: 15px;
+}
+.footer-site {
+  background-image: url(../images/footer\ bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
